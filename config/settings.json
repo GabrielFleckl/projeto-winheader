@@ -1,0 +1,12 @@
+{
+  "backgroundColor": "#000000",
+  "transparency": "FF",
+  "textColor": "#f9f9f9",
+  "fontWeight": "500",
+  "borderRadius": "9999px",
+  "border": "0px",
+  "borderColor": "#f9f9f9",
+  "clockOrder": false,
+  "enableClock": true,
+  "headerWidth": "75%"
+}
