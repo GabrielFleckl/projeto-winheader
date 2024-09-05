@@ -18,7 +18,7 @@
 
 Aqui você pode conferir o layout do projeto. <br>
 
-[👉 Link para visualizar a pagina completa](https://projeto-nike.vercel.app/)
+[👉 Link para visualizar um preview do app]()
 
 
 <br>
