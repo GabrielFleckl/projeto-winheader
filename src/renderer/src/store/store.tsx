@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-import { useDataTypes } from "src/types/store";
+import { useDataTypes } from "../../../types/store";
 
 export const useData = create<useDataTypes>((set) => ({
   shortcutData: [], // valor inicial

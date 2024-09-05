@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import { useData } from "../store/store";
 
-import { Shortcut } from "src/types/electron";
+import { Shortcut } from "../../../types/electron";
 
 
 export function ModalAdd() {

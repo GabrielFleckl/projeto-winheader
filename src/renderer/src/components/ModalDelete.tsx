@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 import { useData } from "../store/store";
-import { Shortcut } from "src/types/electron";
+import { Shortcut } from "../../../types/electron";
 
 export function ModalDelete() {
   const { shortcutData, setShortcutData } = useData();

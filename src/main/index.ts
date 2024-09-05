@@ -20,19 +20,19 @@ import createModal from "../utils/createModal";
 
 // Dev Path files
 
-const shortcutsFilePath = path.join(__dirname, "../../config/shortcuts.json");
-const settingsFilePath = path.join(__dirname, "../../config/settings.json");
+// const shortcutsFilePath = path.join(__dirname, "../../config/shortcuts.json");
+// const settingsFilePath = path.join(__dirname, "../../config/settings.json");
 
 // Prod Path files
 
-// const shortcutsFilePath = path.join(
-//   process.resourcesPath,
-//   "config/shortcuts.json",
-// );
-// const settingsFilePath = path.join(
-//   process.resourcesPath,
-//   "config/settings.json",
-// );
+const shortcutsFilePath = path.join(
+  process.resourcesPath,
+  "config/shortcuts.json",
+);
+const settingsFilePath = path.join(
+  process.resourcesPath,
+  "config/settings.json",
+);
 
 const defaultShortcutsContent: Shortcut[] = [];
 const defaultSettingsContent: Settings = {
