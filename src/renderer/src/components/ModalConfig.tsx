@@ -409,60 +409,6 @@ export function ModalConfig() {
             </div>
           </div>
 
-          <div className="flex items-center justify-between rounded bg-slate-950/50 p-2">
-            <p>Tipo de arredondamento</p>
-            <div className="flex flex-col items-end justify-center">
-              <label className="flex gap-1">
-                <p>Nenhum</p>
-                <input
-                  type="radio"
-                  name="border-radius"
-                  onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                    setBorderRadius(e.target.value)
-                  }
-                  checked={borderRadius === "0px"}
-                  value={"0px"}
-                />
-              </label>
-              <label className="flex gap-1">
-                <p>Leve</p>
-                <input
-                  type="radio"
-                  name="border-radius"
-                  onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                    setBorderRadius(e.target.value)
-                  }
-                  checked={borderRadius === "4px"}
-                  value={"4px"}
-                />
-              </label>
-              <label className="flex gap-1">
-                <p>Médio</p>
-                <input
-                  type="radio"
-                  name="border-radius"
-                  onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                    setBorderRadius(e.target.value)
-                  }
-                  checked={borderRadius === "8px"}
-                  value={"8px"}
-                />
-              </label>
-              <label className="flex gap-1">
-                <p>Pesado</p>
-                <input
-                  type="radio"
-                  name="border-radius"
-                  onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                    setBorderRadius(e.target.value)
-                  }
-                  checked={borderRadius === "9999px"}
-                  value={"9999px"}
-                />
-              </label>
-            </div>
-          </div>
-
           <div className="flex justify-between gap-2">
             <button
               className="w-[150px] bg-blue-500 p-2"
