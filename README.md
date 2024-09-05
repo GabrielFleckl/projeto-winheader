@@ -18,7 +18,7 @@
 
 Aqui você pode conferir o layout do projeto. <br>
 
-[👉 Link para visualizar um preview do app]()
+[👉 Link para visualizar um preview do app](https://projeto-winheader-preview.vercel.app/)
 
 
 <br>
