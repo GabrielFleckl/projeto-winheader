@@ -267,17 +267,6 @@ export function ModalConfig() {
           </div>
 
           <div className="flex items-center justify-between rounded bg-slate-950/50 p-2">
-            <p>Cor da borda</p>
-            <input
-              type="color"
-              value={borderColor}
-              onChange={(e) => {
-                setBorderColor(e.target.value);
-              }}
-            />
-          </div>
-
-          <div className="flex items-center justify-between rounded bg-slate-950/50 p-2">
             <p>Espessura da borda</p>
 
             <div className="flex flex-col items-end justify-center">
@@ -330,6 +319,17 @@ export function ModalConfig() {
                 />
               </label>
             </div>
+          </div>
+
+          <div className="flex items-center justify-between rounded bg-slate-950/50 p-2">
+            <p>Cor da borda</p>
+            <input
+              type="color"
+              value={borderColor}
+              onChange={(e) => {
+                setBorderColor(e.target.value);
+              }}
+            />
           </div>
 
           <div className="flex items-center justify-between rounded bg-slate-950/50 p-2">
