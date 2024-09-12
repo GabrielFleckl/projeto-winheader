@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
-
 import { useData } from "../store/store";
-
 import { Shortcut } from "../../../types/electron";
-
 
 export function ModalAdd() {
   const { shortcutData, setShortcutData } = useData();
@@ -87,5 +84,3 @@ export function ModalAdd() {
     </div>
   );
 }
-
-

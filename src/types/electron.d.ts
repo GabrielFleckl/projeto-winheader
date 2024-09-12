@@ -9,7 +9,6 @@ export type Settings = {
   border:string;
   borderColor: string;
   headerWidth: string;
-  
 };
 
 export type Shortcut = {
@@ -38,6 +37,4 @@ declare global {
   interface Window {
     electronAPI: ElectronAPI;
   }
-
-  
 }

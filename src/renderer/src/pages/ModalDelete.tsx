@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-
 import { useData } from "../store/store";
 import { Shortcut } from "../../../types/electron";
 

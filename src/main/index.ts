@@ -14,7 +14,9 @@ import fs from "fs";
 import { exec } from "child_process";
 
 import icon from "../../resources/icon.ico?asset";
+
 import { Shortcut, Settings } from "../types/electron";
+
 import createFileIfNotExists from "../utils/createFileIfNotExists"
 import createModal from "../utils/createModal";
 
@@ -33,6 +35,7 @@ const settingsFilePath = path.join(
   process.resourcesPath,
   "config/settings.json",
 );
+
 
 const defaultShortcutsContent: Shortcut[] = [];
 const defaultSettingsContent: Settings = {
@@ -59,7 +62,7 @@ function createWindow() {
 
   mainWindow = new BrowserWindow({
     width: 1000,
-    height: 47,
+    height: 47, // 47
     x: (width - 1000) / 2,
     y: 10,
     movable: true,

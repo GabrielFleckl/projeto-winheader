@@ -1,5 +1,7 @@
 import { contextBridge, ipcRenderer } from "electron";
 
+import { ElectronAPI } from "../types/electron";
+
 contextBridge.exposeInMainWorld("electronAPI", {
   openApp: (appPath) => ipcRenderer.send("open-app", appPath),
   getShortcuts: () => ipcRenderer.invoke("get-shortcuts"),
@@ -14,4 +16,4 @@ contextBridge.exposeInMainWorld("electronAPI", {
   openModalConfig: () => ipcRenderer.send("open-modal-config"),
   openModalMenu: () => ipcRenderer.send("open-modal-menu"),
   restartApp: () => ipcRenderer.invoke("restart-app")
-});
+} as ElectronAPI);
