@@ -23,7 +23,7 @@ export function ModalAdd() {
       window.electronAPI.addShortcut(newShortcut).then(setShortcutData);
       setNewShortcutName("");
       setNewShortcutPath("");
-      window.close();
+      // window.close();
     }
   };
 

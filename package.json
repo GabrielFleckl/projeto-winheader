@@ -11,7 +11,7 @@
     "typecheck:web": "tsc --noEmit -p tsconfig.json --composite false",
     "typecheck": "npm run typecheck:node && npm run typecheck:web",
     "start": "electron-vite preview",
-    "dev": "electron-vite dev",
+    "dev": "electron-vite dev ",
     "build": "npm run typecheck && electron-vite build",
     "postinstall": "electron-builder install-app-deps",
     "build:unpack": "npm run build && electron-builder --dir",
@@ -22,7 +22,9 @@
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.1",
     "@electron-toolkit/utils": "^3.0.0",
+    "@gsap/react": "^2.1.1",
     "electron-router-dom": "^1.0.5",
+    "gsap": "^3.12.5",
     "react-router-dom": "^6.26.1",
     "swiper": "^11.1.10",
     "zustand": "^4.5.5"

@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "Hydra",
+    "path": ""
+  },
+  {
+    "name": "Anki",
+    "path": ""
+  },
+  {
+    "name": "Vscode",
+    "path": ""
+  },
+  {
+    "name": "Chrome",
+    "path": ""
+  },
+  {
+    "name": "Spotify",
+    "path": ""
+  },
+  {
+    "name": "Github",
+    "path": ""
+  },
+  {
+    "name": "Terminal",
+    "path": ""
+  }
+]
