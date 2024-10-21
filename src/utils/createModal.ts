@@ -4,7 +4,6 @@ import {
   BrowserWindow
 
 } from "electron";
-import { is } from "@electron-toolkit/utils";
 
 function createModal(hash: string, parent: BrowserWindow) {
   const modalWindow = new BrowserWindow({
